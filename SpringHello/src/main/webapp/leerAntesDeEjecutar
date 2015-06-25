@@ -1,0 +1,17 @@
+Para ejecutar este proyecto, debemos:
+
+0) cuando se crea un proyecto web, NO  SE DEBE CAMBIAR LA CABECERA DEL ARCHIVO DE CONFIGURACION WEB.XML DEL PROYECTO, PORQUE ESTO TRAERA EL ERROR 404, 
+   POR LO QUE SE DEBE CONSERVAR ESA CABECARA ORIGINAL CON QUE FUE CREADA EL PROYECTO DESDE ECLIPSE U OTRO ORIGEN (maven).
+   EN ESTE CASO SE HIZO CON ECLIPSE COMO PROYECTO MAVEN.
+   
+1) Pararse sobre el proyecto maven boton derecho y run/debug con maven (Maven build).
+   como esto esta configurado para ejecutar con jetty debemos ingresar con la url : http://localhost:8080/SpringHello/ 
+   si es asi saldrá el sgte error/bug (anda saber que es!!!)
+   
+    Directory: /SpringHello/
+	Leer antes de ejecutar  811 bytes  08/03/2014 16:11:35 
+	WEB-INF/  0 bytes  31/01/2013 09:12:50 
+   
+   
+   o directamente poner la 
+   url con el path que esta configurado en dispatcher-servlet.xml http://localhost:8080/SpringHello/welcome.htm 
